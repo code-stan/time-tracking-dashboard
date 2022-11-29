@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+<body>
+   <div class="container">
+    <!--HEADER NAVIGATION-->
+    <div class="con-header">
+      <div class="header-card">
+        <div class="card-user-image">
+          <img src="./images/image-jeremy.png" alt="Picture of Jeremy Robson">
+        </div>
+        <div class="card-details">
+          <div class="card-report">Report for</div>
+          <div class="card-user">
+            <p>Jeremy <span>Robson</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="header-nav">
+        <button class="nav-btn main-btn">
+          Daily
+        </button>
+        <button class="nav-btn">
+          Weekly
+        </button>
+        <button class="nav-btn">
+          Monthly
+        </button>
+      </div>
+      
+    </div>
+   <!-- CONTAINER BODY -->
+   <div class="container-body">
+    <div class="grid-boxes">
+      <!-- GRID BOX 1 -->
+      <div class="grid1 grid-box">
+        <div class="grid-header">
+          <div class="grid-title">Work</div>
+          <button class="grid-icon">
+            <svg class="icon-svg" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+          </button>
+        </div>
+        <div class="grid-body">
+          <p class="current-time">5hrs</p>
+          <p class="previous prev-work">Yesterday - 7hrs</p>
+        </div>
+      </div>
+      <!-- GRID BOX 2 -->
+      <div class="grid2 grid-box">
+        <div class="grid-header">
+          <div class="grid-title">Play</div>
+          <button class="grid-icon">
+            <svg class="icon-svg" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+          </button>
+        </div>
+        <div class="grid-body">
+          <p class="current-time">1hr</p>
+          <p class="previous prev-play">Yesterday - 2hrs</p>
+        </div>
+      </div>
+      <!-- GRID BOX 3 -->
+      <div class="grid3 grid-box">
+        <div class="grid-header">
+          <div class="grid-title">Study</div>
+          <button class="grid-icon">
+            <svg class="icon-svg" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+          </button>
+        </div>
+        <div class="grid-body">
+          <p class="current-time">0hr</p>
+          <p class="previous prev-study">Yesterday - 1hr</p>
+        </div>
+      </div>
+      <!-- GRID BOX 4 -->
+      <div class="grid4 grid-box">
+        <div class="grid-header">
+          <div class="grid-title">Exercise</div>
+          <button class="grid-icon">
+            <svg class="icon-svg" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+          </button>
+        </div>
+        <div class="grid-body">
+          <p class="current-time">1hr</p>
+          <p class="previous prev-exer">Yesterday - 1hr</p>
+        </div>
+      </div>
+      <!-- GRID-BOX 5 -->
+      <div class="grid5 grid-box">
+        <div class="grid-header">
+          <div class="grid-title">Social</div>
+          <button class="grid-icon">
+            <svg class="icon-svg" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+          </button>
+        </div>
+        <div class="grid-body">
+          <p class="current-time">1hr</p>
+          <p class="previous prev-social">Yesterday - 3hrs</p>
+        </div>
+      </div>
+      <!-- GRID BOX 6 -->
+      <div class="grid6 grid-box">
+        <div class="grid-header">
+          <div class="grid-title">Self Care</div>
+          <button class="grid-icon">
+            <svg class="icon-svg" width="21" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z" fill="#BBC0FF" fill-rule="evenodd"/></svg>
+          </button>
+        </div>
+        <div class="grid-body">
+          <p class="current-time">0hr</p>
+          <p class="previous prev-sc">Yesterday - 1hr</p>
+        </div>
+      </div>
+    </div>
+   </div>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
